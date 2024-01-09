@@ -1,0 +1,36 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: obol.png
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: ethereum
+title: Obol Blockchain 
+modal: obol-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: cancel
+reason: Not have partner
+
+######## DETAILS USED MODAL
+website: "https://obol.tech/"
+event_name: "Validator Incentivized Testnet"
+event_link:  "https://goerli.beaconcha.in/validator/0xb962da348d556dcb8200824e89d7e7762edd6f9360bfe4c079f20c589ae53e29bd210562d72882abe48d116335dd4449#charts"
+node_id: "<code>0xb962da348d556dcb8200824e89d7e7762edd6f9360bfe4c079f20c589ae53e29bd210562d72882abe48d116335dd4449</code>"
+
+######### TECHNOLOGY
+os: Ubuntu 22.04
+monitoring: Grafana, Prometheus, Telegraf
+monitoring_pdf:
+security: "Audit (Lynis and Greenbonde), Hardening CIS"
+network: "Wireguard (Communication between Machine)"
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_rpc: 
+tendermint_api: 
+tendermint_grpc: 
+tendermint_grpc_web:
+---

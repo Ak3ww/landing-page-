@@ -1,0 +1,328 @@
+<!-- jQuery Version 1.11.0 -->
+<script src="js/jquery-3.6.1.js"></script>
+
+
+<!-- Plugin JavaScript -->
+<script src="{{ " js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+
+<script src="js/sweetalert2.js"></script>
+
+
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+<!-- ######### BODY PAGE ######## -->
+<script>
+
+
+  // Clipboard For NYM
+  function clip_nym_func() { // Get the text field
+    var copyText = document.getElementById("clip_nym");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    // Alert the copied text
+    // alert("ID Node Copied: " + copyText.value);
+
+   
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'NYM Mixnode | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+
+  }
+
+  // // Clipboard For Gravity
+  // function clip_grav_func() { // Get the text field
+  //   var copyText = document.getElementById("clip_grav");
+
+  //   // Select the text field
+  //   copyText.select();
+  //   copyText.setSelectionRange(0, 99999);
+  //   // For mobile devices
+
+  //   // Copy the text inside the text field
+  //   navigator.clipboard.writeText(copyText.value);
+
+  //   Swal.fire({
+  //     position: 'top-end',
+  //     icon: 'success',
+  //     title: 'Gravity Bridge | ID Node Copied',
+  //     showConfirmButton: false,
+  //     timer: 1500
+  //   })
+  // }
+
+  /*
+  //  // Clipboard For Comdex
+  function clip_comdex_three() { // Get the text field
+     var copyText = document.getElementById("clip_comdex");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  // For mobile devices
+
+  //   // Copy the text inside the text field
+  //   navigator.clipboard.writeText(copyText.value);
+   Swal.fire({
+     position: 'top-end',
+     icon: 'success',
+     title: 'Comdex | ID Node Copied',
+     showConfirmButton: false,
+     timer: 1500
+   })
+  }
+*/
+
+/*
+  //    // Clipboard For Akash
+  // function clip_akash_three() { // Get the text field
+  //   var copyText = document.getElementById("clip_akash");
+
+  //   // Select the text field
+  //   copyText.select();
+  //   copyText.setSelectionRange(0, 99999);
+  //   // For mobile devices
+
+  //   // Copy the text inside the text field
+  //   navigator.clipboard.writeText(copyText.value);
+
+  //   Swal.fire({
+  //     position: 'top-end',
+  //     icon: 'success',
+  //     title: 'Akash | ID Node Copied',
+  //     showConfirmButton: false,
+  //     timer: 1500
+  //   })
+  // }
+*/
+
+ /*function clip_arkh_three() { // Get the text field
+    var copyText = document.getElementById("clip_arkh");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Arkhadian | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }*/
+
+
+  // function clip_8ball_three() { // Get the text field
+  //   var copyText = document.getElementById("clip_8ball");
+
+  //   // Select the text field
+  //   copyText.select();
+  //   copyText.setSelectionRange(0, 99999);
+  //   // For mobile devices
+
+  //   // Copy the text inside the text field
+  //   navigator.clipboard.writeText(copyText.value);
+
+  //   Swal.fire({
+  //     position: 'top-end',
+  //     icon: 'success',
+  //     title: '8Ball | ID Node Copied',
+  //     showConfirmButton: false,
+  //     timer: 1500
+  //   })
+  // }
+
+
+  // NYM
+  function clip_nym_three() { // Get the text field
+    var copyText = document.getElementById("clip_nym");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'NYM | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+
+  // PLANQ
+  function clip_planq_three() { // Get the text field
+    var copyText = document.getElementById("clip_planq");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'PlanQ | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+
+  // GITOPIA
+  function clip_gitopia_three() { // Get the text field
+    var copyText = document.getElementById("clip_gitopia");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Gitopia | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+
+  // BAND
+  function clip_band_three() { // Get the text field
+    var copyText = document.getElementById("clip_band");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Band Protocol | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+
+  // SOURCE
+  function clip_source_three() { // Get the text field
+    var copyText = document.getElementById("clip_source");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Source | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+
+    // SGE
+    function clip_sge_three() { // Get the text field
+    var copyText = document.getElementById("clip_sge");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'SGE | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+
+  // dVPN Sentinel
+  function clip_dvpn_three() { // Get the text field
+    var copyText = document.getElementById("clip_dvpn");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'dVPN Sentinel | ID Node Copied',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
+
+ 
+
+
+
+    //BAR Menu Navigator
+  document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 50) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+        // remove padding top from body
+        document.body.style.paddingTop = '0';
+      }
+    });
+  });
+
+
+</script>

@@ -1,0 +1,35 @@
+---
+layout: default
+######## CARD FRONT VARIABLE
+img: sge.png
+# kind blockchain : tendermint, polkadot, ethereum, near, move.
+kind_blockchain: tendermint
+title: SGE Network 
+modal: sge-testnet
+# status
+# - finished
+# - ongoing
+# - cancel
+# - preparations / other
+status: ongoing
+reason: 
+
+######## DETAILS USED MODAL
+website: "https://sgenetwork.io/"
+event_name: "Testnet"
+event_link:  "https://explorer.nodestake.top/sge-testnet/staking/sgevaloper1rhmrwq4xket2ua4s7nqunnne8kzfz4w34082zv"
+node_id: "<code>sgevaloper1rhmrwq4xket2ua4s7nqunnne8kzfz4w34082zv</code>"
+
+######### TECHNOLOGY
+os: Ubuntu 22.04
+monitoring: Grafana, Prometheus, Telegraf
+security: "Audit (Lynis and Greenbonde), Hardening CIS"
+network: "Wireguard (Communication between Machine)"
+
+######## INFRASTRUCTURE
+# if kind_blockchain is tendermint,please assign  tendermint_ of value
+tendermint_rpc: "https://rpc.sge.roomit.xyz"
+tendermint_api: "https://api.sge.roomit.xyz"
+tendermint_grpc: "https://grpc.sge.roomit.xyz"
+tendermint_grpc_web: "https://grpc-web.sge.roomit.xyz"
+---
